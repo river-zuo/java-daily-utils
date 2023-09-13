@@ -5,4 +5,6 @@ resources/k8syaml
 k8s部署的yaml文件
 kubectl apply -f ${file}
 
+file:
+resources/k8syaml/springboot-demo.yaml => 部署springboot打包应用并暴露端口
  */
